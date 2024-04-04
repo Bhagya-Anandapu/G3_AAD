@@ -24,7 +24,7 @@ Below is a table summarizing the mini projects and final project completed durin
 | Description                               | Link                                                                                                |
 |-------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Mini Projects:                            |                                                                                                     |
-| Dice Application                          | https://github.com/sure-trust/G3_AAD/tree/main/Mini%20Projects/Bhagya%20Lakshmi%20Anandapu/DICE     |
-| NewsFeed Appliation                       | https://github.com/sure-trust/G3_AAD/tree/main/Mini%20Projects/Bhagya%20Lakshmi%20Anandapu/NewsFeed |
+| Dice Application                          | [click here](https://github.com/sure-trust/G3_AAD/tree/main/Mini%20Projects/Bhagya%20Lakshmi%20Anandapu/DICE)    |
+| NewsFeed Appliation                       | [click here](https://github.com/sure-trust/G3_AAD/tree/main/Mini%20Projects/Bhagya%20Lakshmi%20Anandapu/NewsFeed) |
 | Final Project:                            |                                                                                                     |
-| E-Commerce Application                    | https://github.com/sure-trust/G3_AAD/tree/main/Final%20Capstone%20Projects/Bhagya%20Lakshmi%20Anandapu/Final_Project |
+| E-Commerce Application                    | [click here](https://github.com/sure-trust/G3_AAD/tree/main/Final%20Capstone%20Projects/Bhagya%20Lakshmi%20Anandapu/Final_Project) |
