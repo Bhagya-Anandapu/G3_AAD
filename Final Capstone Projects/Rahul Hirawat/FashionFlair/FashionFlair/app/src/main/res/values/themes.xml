@@ -1,0 +1,8 @@
+<resources>
+    <style name="Base.Theme.FashionFlair" parent="Theme.Material3.Light.NoActionBar" >
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:colorAccent">@color/white</item>
+    </style>
+
+    <style name="Theme.FashionFlair" parent="Base.Theme.FashionFlair" />
+</resources>

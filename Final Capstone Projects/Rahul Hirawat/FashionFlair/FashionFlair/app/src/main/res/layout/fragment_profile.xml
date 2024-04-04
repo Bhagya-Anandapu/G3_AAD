@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".presentation.fragment.ProfileFragment">
+
+
+    <FrameLayout
+        android:id="@+id/profile_picture_container"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:outlineAmbientShadowColor="@color/white"
+            android:outlineSpotShadowColor="@color/white"
+            app:cardCornerRadius="500dp">
+
+            <ImageView
+                android:id="@+id/profile_picture"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_profile_placeholder" />
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/edit_profile_picture"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="bottom|end"
+            android:background="@drawable/icon_background"
+            android:elevation="2dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_edit"
+            app:tint="@color/blue" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:fontFamily="@font/lexend_deca"
+        android:text="Profile Name"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/profile_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/profile_picture_container"
+        app:layout_constraintTop_toTopOf="@id/profile_picture_container" />
+
+    <TextView
+        android:id="@+id/profile_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:alpha="0.5"
+        android:fontFamily="@font/lexend_deca"
+        android:text="abc@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@id/profile_picture_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/profile_picture_container"
+        app:layout_constraintTop_toBottomOf="@id/profile_name" />
+
+
+    <LinearLayout
+        android:id="@+id/options_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/profile_picture_container">
+
+        <TextView
+            android:id="@+id/view_cart_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="6dp"
+            android:background="@drawable/profile_option_background"
+            android:drawableEnd="@drawable/ic_arrow_right"
+            android:drawableTint="@color/white"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="16dp"
+            android:text="View Cart"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/help_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="6dp"
+            android:background="@drawable/profile_option_background"
+            android:drawableEnd="@drawable/ic_arrow_right"
+            android:drawableTint="@color/white"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="16dp"
+            android:text="Need Help"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/terms_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="6dp"
+            android:background="@drawable/profile_option_background"
+            android:drawableEnd="@drawable/ic_arrow_right"
+            android:drawableTint="@color/white"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="16dp"
+            android:text="Terms and Conditions"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/privacy_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="6dp"
+            android:background="@drawable/profile_option_background"
+            android:drawableEnd="@drawable/ic_arrow_right"
+            android:drawableTint="@color/white"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="16dp"
+            android:text="Privacy Policy"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/logout_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="6dp"
+            android:background="@drawable/profile_option_background"
+            android:drawableEnd="@drawable/ic_arrow_right"
+            android:drawableTint="@color/white"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="16dp"
+            android:text="Logout"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Crafted by Rahul"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

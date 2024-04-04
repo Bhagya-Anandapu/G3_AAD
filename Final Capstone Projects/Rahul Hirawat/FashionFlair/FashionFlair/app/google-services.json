@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "39980190354",
+    "project_id": "e-commerce-e35b8",
+    "storage_bucket": "e-commerce-e35b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39980190354:android:422e8d8eda938b4de3744b",
+        "android_client_info": {
+          "package_name": "com.example.fashionflair"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39980190354-ivscdph6r0jfqu7t31ofvqe2fe7s1te8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fashionflair",
+            "certificate_hash": "b2ba36150cc534b4527bb8b0996bf15868ded823"
+          }
+        },
+        {
+          "client_id": "39980190354-uoc7hgdd1n463tqmkdv7dvsg8m84inr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB2tNryVbxJirEkU6P4m9PhQPC8gMO2kE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39980190354-uoc7hgdd1n463tqmkdv7dvsg8m84inr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
